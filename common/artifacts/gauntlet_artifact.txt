@@ -1,0 +1,177 @@
+
+infinity_gauntlet = {
+monthly_character_prestige = 0.9
+stewardship = 500
+diplomacy = 500
+martial = 900
+intrigue = 500
+learning = 600
+health = 1000
+global_movement_speed = 1000
+combat_rating = 1000
+
+	immortal = yes
+
+	command_modifier = {
+
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	allowed_gift = {
+ is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_infinity"
+	
+	slot = weapon
+}
+
+the_gauntlet = {
+monthly_character_prestige = 0.4
+
+
+	command_modifier = {
+
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	allowed_gift = {
+ is_adult = yes
+	}
+	flags = { the_gauntlet }
+	stacking = no
+	picture = "GFX_gauntlet"
+	
+	slot = ceremonial_weapon
+}
+
+power_stone = {
+
+stewardship = 500
+
+	command_modifier = {
+
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	allowed_gift = {
+ is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_power_stone"
+	
+	slot = weapon
+}
+
+reality_stone = {
+
+intrigue = 250
+
+	command_modifier = {
+
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	allowed_gift = {
+ is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_reality_stone"
+	
+	slot = weapon
+}
+
+soul_stone = {
+
+stewardship = 500
+
+	command_modifier = {
+
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	allowed_gift = {
+ is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_soul_stone"
+	
+	slot = weapon
+}
+
+space_stone = {
+
+		global_movement_speed = 500
+
+	command_modifier = {
+
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	allowed_gift = {
+ is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_space_stone"
+	
+	slot = weapon
+}
+
+time_stone = {
+
+learning = 300
+
+	command_modifier = {
+
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	allowed_gift = {
+ is_adult = yes
+	}
+	flags = { time_stone }
+	stacking = no
+	picture = "GFX_time_stone"
+	
+	slot = weapon
+}
+
+mind_stone = {
+
+stewardship = 500
+
+	command_modifier = {
+
+	}
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	allowed_gift = {
+ is_adult = yes
+	}
+	flags = { combat_weapon sword created }
+	stacking = no
+	picture = "GFX_mind_stone"
+	
+	slot = weapon
+}

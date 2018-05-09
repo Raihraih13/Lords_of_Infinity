@@ -1,0 +1,250 @@
+infinity_gauntlet = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	
+	spawn_chance = {
+		value = 1
+                trait = ambitious
+                has_landed_title = c_jerusalem
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Mystics" }
+		}
+	}
+
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			OR = {
+
+			}
+			is_landed = yes
+		}
+		additive_modifier = {
+			value = 100
+			is_landed = yes
+		}
+	}
+
+	artifacts = {
+		infinity_gauntlet = {
+			value = 1
+		}
+	}
+}
+power_stone = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	
+	spawn_chance = {
+		value = 1
+                trait = ambitious
+                has_landed_title = c_paris
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Mystics" }
+		}
+	}
+
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			OR = {
+
+			}
+			is_landed = yes
+		}
+		additive_modifier = {
+			value = 100
+			is_landed = yes
+		}
+	}
+
+	artifacts = {
+		power_stone = {
+			value = 1
+		}
+	}
+}
+
+time_stone = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	
+	spawn_chance = {
+		value = 1
+                trait = ambitious
+                has_landed_title = c_cairo
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Mystics" }
+		}
+	}
+
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			OR = {
+
+			}
+			is_landed = yes
+		}
+		additive_modifier = {
+			value = 100
+			is_landed = yes
+		}
+	}
+
+	artifacts = {
+		time_stone = {
+			value = 1
+		}
+	}
+}
+
+mind_stone = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	
+	spawn_chance = {
+		value = 1
+                trait = ambitious
+                has_landed_title = c_roma
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Mystics" }
+		}
+	}
+
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			OR = {
+
+			}
+			is_landed = yes
+		}
+		additive_modifier = {
+			value = 100
+			is_landed = yes
+		}
+	}
+
+	artifacts = {
+		mind_stone = {
+			value = 1
+		}
+	}
+}
+
+reality_stone = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	
+	spawn_chance = {
+		value = 1
+                trait = ambitious
+                has_landed_title = c_delhi
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Mystics" }
+		}
+	}
+
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			OR = {
+
+			}
+			is_landed = yes
+		}
+		additive_modifier = {
+			value = 100
+			is_landed = yes
+		}
+	}
+
+	artifacts = {
+		reality_stone = {
+			value = 1
+		}
+	}
+}
+
+space_stone = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	
+	spawn_chance = {
+		value = 1
+                trait = ambitious
+                has_landed_title = c_novgorod
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Mystics" }
+		}
+	}
+
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			OR = {
+
+			}
+			is_landed = yes
+		}
+		additive_modifier = {
+			value = 100
+			is_landed = yes
+		}
+	}
+
+	artifacts = {
+		space_stone = {
+			value = 1
+		}
+	}
+}
+
+soul_stone = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	
+	spawn_chance = {
+		value = 1
+                trait = ambitious
+                has_landed_title = c_constantinople
+		modifier = {
+			factor = 0
+			NOT = { has_dlc = "Mystics" }
+		}
+	}
+
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			OR = {
+
+			}
+			is_landed = yes
+		}
+		additive_modifier = {
+			value = 100
+			is_landed = yes
+		}
+	}
+
+	artifacts = {
+		soul_stone = {
+			value = 1
+		}
+	}
+}

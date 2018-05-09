@@ -1,0 +1,47 @@
+infinity = {
+	prestige = 1000
+	customizer = no
+
+}
+
+glove = {
+	prestige = 100
+	customizer = no
+
+}
+
+space = {
+	prestige = 100
+	customizer = no
+
+}
+
+reality = {
+	prestige = 100
+	customizer = no
+
+}
+
+mind = {
+	prestige = 100
+	customizer = no
+
+}
+
+time = {
+	prestige = 100
+	customizer = no
+
+}
+
+power = {
+	prestige = 100
+	customizer = no
+
+}
+
+soul = {
+	prestige = 100
+	customizer = no
+
+}

@@ -1,0 +1,420 @@
+namespace = infinity
+
+#Infinity complete set, keep or destroy? event
+narrative_event = {
+	id = infinity.2010
+	desc = "EVTDESCinfinity.2010"
+    picture = GFX_evt_pagan_artifacts
+    border = GFX_event_narrative_frame_religion
+	
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	ai = no
+	
+	trigger = {
+		has_artifact = the_gauntlet
+		has_artifact = power_stone
+		has_artifact = time_stone
+		has_artifact = reality_stone
+		has_artifact = mind_stone
+		has_artifact = soul_stone
+		has_artifact = space_stone
+		NOT = { has_artifact = infinity_gauntlet }
+	}
+
+    has_dlc = "Mystics"
+
+    option = { #option 1 all shall kneel before me
+        name = EVTOPTAinfinity.2010
+        prestige = 10
+
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_extremely_disappointed
+			years = 20
+		}
+        add_artifact = infinity_gauntlet
+        new_artifact = {
+			set_creation_date = 1.1.1
+		}
+        destroy_artifact = the_gauntlet
+        destroy_artifact = power_stone
+        destroy_artifact = time_stone
+        destroy_artifact = reality_stone
+        destroy_artifact = mind_stone
+        destroy_artifact = soul_stone
+        destroy_artifact = space_stone
+	}
+    option = { #option 2 destroy all artifacts
+		name = EVTOPTBinfinity.2010
+		destroy_artifact = the_gauntlet
+        destroy_artifact = power_stone
+        destroy_artifact = time_stone
+        destroy_artifact = reality_stone
+        destroy_artifact = mind_stone
+        destroy_artifact = soul_stone
+        destroy_artifact = space_stone
+		destroy_artifact = infinity_gauntlet
+	}
+	
+#after = { clr_artifact_flagsmodifiers_effect = yes }
+}
+
+#gauntlet
+narrative_event = {
+	id = infinity.2011
+	desc = "EVTDESCinfinity.2011"
+    picture = GFX_evt_pagan_artifacts
+    border = GFX_event_narrative_frame_religion
+	
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	ai = no
+
+    trigger = {
+                trait = ambitious
+                has_landed_title = c_jerusalem
+		NOT = { has_artifact = the_gauntlet }
+		NOT = { has_artifact = infinity_gauntlet }
+                
+				}
+
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+
+    has_dlc = "Mystics"
+
+    option = { #it's their duty
+        name = EVTOPT_MAJOR_ARTIFACT_DUTY
+        prestige = 10
+
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_extremely_disappointed
+			years = 20
+		}
+        add_artifact = the_gauntlet
+        new_artifact = {
+			set_creation_date = 1.1.1
+		}
+    }
+ #after = { clr_artifact_flagsmodifiers_effect = yes }
+}
+
+#mind
+narrative_event = {
+	id = infinity.2012
+	desc = "EVTDESCinfinity.2012"
+    picture = GFX_evt_pagan_artifacts
+    border = GFX_event_narrative_frame_religion
+	
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	ai = no
+
+    trigger = {
+
+                has_landed_title = c_roma
+		NOT = { has_artifact = mind_stone }
+        NOT = { has_artifact = infinity_gauntlet }
+				}
+
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+
+    has_dlc = "Mystics"
+
+    option = { #it's their duty
+        name = EVTOPT_MAJOR_ARTIFACT_DUTY
+        prestige = 10
+		set_character_flag = mind
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_extremely_disappointed
+			years = 20
+		}
+        add_artifact = mind_stone
+        new_artifact = {
+			set_creation_date = 1.1.1
+		}
+    }
+ #after = { clr_artifact_flagsmodifiers_effect = yes }
+}
+
+#power
+narrative_event = {
+	id = infinity.2013
+	desc = "EVTDESCinfinity.2013"
+    picture = GFX_evt_pagan_artifacts
+    border = GFX_event_narrative_frame_religion
+	
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	ai = no
+
+    trigger = {
+
+                has_landed_title = c_ile_de_france
+		NOT = { has_artifact = power_stone }
+		NOT = { has_artifact = infinity_gauntlet }
+                
+				}
+
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+
+    has_dlc = "Mystics"
+
+    option = { #it's their duty
+        name = EVTOPT_MAJOR_ARTIFACT_DUTY
+        prestige = 10
+        		set_character_flag = power
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_extremely_disappointed
+			years = 20
+		}
+        add_artifact = power_stone
+        new_artifact = {
+			set_creation_date = 1.1.1
+		}
+    }
+ #after = { clr_artifact_flagsmodifiers_effect = yes }
+}
+
+#reality
+narrative_event = {
+	id = infinity.2014
+	desc = "EVTDESCinfinity.2014"
+    picture = GFX_evt_pagan_artifacts
+    border = GFX_event_narrative_frame_religion
+	
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	ai = no
+
+    trigger = {
+
+                has_landed_title = c_delhi
+		NOT = { has_artifact = reality_stone }
+		NOT = { has_artifact = infinity_gauntlet }
+                
+				}
+
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+
+    has_dlc = "Mystics"
+
+    option = { #it's their duty
+        name = EVTOPT_MAJOR_ARTIFACT_DUTY
+        prestige = 10
+		set_character_flag = reality
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_extremely_disappointed
+			years = 20
+		}
+        add_artifact = reality_stone
+        new_artifact = {
+			set_creation_date = 1.1.1
+		}
+    }
+ #after = { clr_artifact_flagsmodifiers_effect = yes }
+}
+
+#soul (byzantion is constantinople)
+narrative_event = {
+	id = infinity.2015
+	desc = "EVTDESCinfinity.2015"
+    picture = GFX_evt_pagan_artifacts
+    border = GFX_event_narrative_frame_religion
+	
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	ai = no
+
+    trigger = {
+
+                has_landed_title = c_byzantion
+		NOT = { has_artifact = soul_stone }
+		NOT = { has_artifact = infinity_gauntlet }
+                
+				}
+
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+
+    has_dlc = "Mystics"
+
+    option = { #it's their duty
+        name = EVTOPT_MAJOR_ARTIFACT_DUTY
+        prestige = 10
+        		set_character_flag = soul
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_extremely_disappointed
+			years = 20
+		}
+        add_artifact = soul_stone
+        new_artifact = {
+			set_creation_date = 1.1.1
+		}
+    }
+ #after = { clr_artifact_flagsmodifiers_effect = yes }
+}
+
+#space
+narrative_event = {
+	id = infinity.2016
+	desc = "EVTDESCinfinity.2016"
+    picture = GFX_evt_pagan_artifacts
+    border = GFX_event_narrative_frame_religion
+	
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	ai = no
+
+    trigger = {
+
+                has_landed_title = c_novgorod
+		NOT = { has_artifact = space_stone }
+		NOT = { has_artifact = infinity_gauntlet }                
+
+				}
+
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+
+    has_dlc = "Mystics"
+
+    option = { #it's their duty
+        name = EVTOPT_MAJOR_ARTIFACT_DUTY
+        prestige = 10
+        set_character_flag = space
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_extremely_disappointed
+			years = 20
+		}
+        add_artifact = space_stone
+        new_artifact = {
+			set_creation_date = 1.1.1
+		}
+    }
+ #after = { clr_artifact_flagsmodifiers_effect = yes }
+}
+
+#time
+narrative_event = {
+	id = infinity.2017
+	desc = "EVTDESCinfinity.2017"
+    picture = GFX_evt_pagan_artifacts
+    border = GFX_event_narrative_frame_religion
+	
+	capable_only = yes
+	prisoner = no
+	only_playable = yes
+	ai = no
+
+    trigger = {
+
+                has_landed_title = c_cairo
+		NOT = { has_artifact = time_stone }
+		NOT = { has_artifact = infinity_gauntlet }
+                
+				}
+
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+
+    has_dlc = "Mystics"
+
+    option = { #it's their duty
+        name = EVTOPT_MAJOR_ARTIFACT_DUTY
+        prestige = 10
+	set_character_flag = time
+        reverse_opinion = {
+			who = FROM
+			modifier = opinion_extremely_disappointed
+			years = 20
+		}
+        add_artifact = time_stone
+        new_artifact = {
+			set_creation_date = 1.1.1
+		}
+    }
+ #after = { clr_artifact_flagsmodifiers_effect = yes }
+}
+
+#Infinity (NOT SURE WHAT THIS EVENT IS FOR, REPEAT OF EVENT 2011?/ID NEEDS TO BE CHANGED FROM 2017 BECAUSE THAT IS THE TIMESTONE ID FOR THE EVENT ABOVE)
+#narrative_event = {
+#	id = infinity.2017
+#	desc = "EVTDESCgauntlet.2017"
+#   picture = GFX_evt_pagan_artifacts
+#    border = GFX_event_narrative_frame_religion
+#	
+#	capable_only = yes
+#	prisoner = no
+#	only_playable = yes
+#	ai = no
+
+#    trigger = {
+#                trait = ambitious
+#                has_landed_title = c_jerusalem
+#                NOT = { trait = glove }
+#                
+#				}
+#
+#
+ #   mean_time_to_happen = {
+  #      months = 1
+   # }
+
+
+    #has_dlc = "Mystics"
+
+    #option = { #it's their duty
+  #      name = EVTOPT_MAJOR_ARTIFACT_DUTY
+   #     prestige = 10
+ #       add_trait = glove
+  #      reverse_opinion = {
+	#		who = FROM
+#			modifier = opinion_extremely_disappointed
+#			years = 20
+#		}
+ #       add_artifact = the_gauntlet
+  #      new_artifact = {
+#			set_creation_date = 1.1.1
+#		}
+ #   }
+ #after = { clr_artifact_flagsmodifiers_effect = yes }
+#}
